@@ -6,7 +6,7 @@ function Navbar() {
     <div className="n-wrapper">
         <div className="n-left">
             <div className="n-name">
-                AJSAL
+                Portfolio
             </div>
             <span>toggle</span>
         </div>
@@ -22,7 +22,7 @@ function Navbar() {
                 </ul>
             </div>
            <button className="button n-button">
-            Contact Us
+            Contact 
            </button>
         </div>
     </div>
