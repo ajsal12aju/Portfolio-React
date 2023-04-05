@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import Toggle from '../Toggle/Toggle'
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
             <div className="n-name">
                 Portfolio
             </div>
-            <span>toggle</span>
+            <Toggle/>
         </div>
         <div className="n-right">
             <div className="n-list">

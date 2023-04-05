@@ -1,0 +1,9 @@
+.toggle{
+    display: flex;
+    justify-content: center;
+    border: 3px solid var(--orange);
+    border-radius: 1rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+}
