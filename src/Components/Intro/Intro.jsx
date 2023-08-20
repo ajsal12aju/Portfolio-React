@@ -5,24 +5,32 @@ import LinkedIn from '../../img/linkedin.png'
 import Instagram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
-import boy from '../../img/boy.png'
+// import boy from '../../img/boy.png'
+import mypic from "../../img/my-pic.png"
 import thumbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 import { themeContext } from '../../Context'
 import { useContext } from "react";
+import {motion} from 'framer-motion'
+import { useViewportScroll, useTransform } from "framer-motion";
 
  function Intro() {
-
+  const transition = {duaration : 0.5}
   const theme = useContext(themeContext)
   const darkMode = theme.state.darkMode
+  
+  const { scrollY } = useViewportScroll();
+  const x = useTransform(scrollY, [0, 100], [-100, 0],transition);
+  const y = useTransform(scrollY, [0, 100], [0, -100],transition);
+
   return (
     <div className='intro'>
        <div className="i-left">
           <div className="i-name">
             <span style={{color:darkMode ? 'white' : ''}}>Hy! I Am</span>
-            <span>Mohammed Ajsal vp</span>
+            <span className='hidden' >Mohammed Ajsal vp</span>
             <span>Fullstack Developer with high level of knowledge in web designing and development, producting the Quality work</span>
           </div>
           <button className="button i-button">
@@ -38,10 +46,15 @@ import { useContext } from "react";
        <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
-        <img src={glassesimoji} alt="" />
-        <div style={{top:'-4%',left:'68%'}}><FloatingDiv image={Crown} text1='Web' text2='Developer'/></div>
-        <div style={{top:'18rem',left:'0rem'}}><FloatingDiv image={thumbup} text1='Best Design' text2='Award'/></div>
+        <img src={mypic} alt="" className='my-pic' />
+        <motion.img initial={{ x: 0, y: 0 }}
+        animate={{ x: 30, y: 50 }}
+        transition={{ duration: 1 }}
+          src={glassesimoji} alt="" />
+        <motion.div  initial={{ x: "10vw" }}
+        animate={{ x: 0 }}
+        transition={{ duration: 1 }}  style={{top:'-4%',left:'68%'}}><FloatingDiv image={Crown} text1='Web' text2='Developer'/></motion.div>
+        <motion.div   style={{ y,x, top:'18rem',left:'0rem'}}><FloatingDiv image={thumbup} text1='Best Design' text2='Award'/></motion.div>
 
         {/* for blur divs */}
         <div className="blur" style={{background:"rgba(238 210 255)"}}></div>
