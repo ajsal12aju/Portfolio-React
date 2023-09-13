@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React%20/static/css/main.62006406.css",
+    "main.js": "/Portfolio-React%20/static/js/main.de121ad9.js",
+    "static/media/MOHAMMED AJSAL CV NEW 001.pdf": "/Portfolio-React%20/static/media/MOHAMMED AJSAL CV NEW 001.37d1bd7be782661ed876.pdf",
+    "static/media/homw.png": "/Portfolio-React%20/static/media/homw.f4322cd15d1833eb39c0.png",
+    "static/media/shopping cart.png": "/Portfolio-React%20/static/media/shopping cart.424b353f86ace0497243.png",
+    "static/media/banner.png": "/Portfolio-React%20/static/media/banner.9f1bf53fe1969885f9fd.png",
+    "static/media/my-pic.png": "/Portfolio-React%20/static/media/my-pic.d3414afa497d7a073252.png",
+    "static/media/admin.png": "/Portfolio-React%20/static/media/admin.000f40830dcbfcb5e013.png",
+    "static/media/glassesimoji.png": "/Portfolio-React%20/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/logo1.png": "/Portfolio-React%20/static/media/logo1.1479342ee0718b76c8a4.png",
+    "static/media/thumbup.png": "/Portfolio-React%20/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/Portfolio-React%20/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/Portfolio-React%20/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/Portfolio-React%20/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/Portfolio-React%20/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Portfolio-React%20/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/Portfolio-React%20/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/india.webp": "/Portfolio-React%20/static/media/india.bf879827f2945bc50a77.webp",
+    "index.html": "/Portfolio-React%20/index.html",
+    "main.62006406.css.map": "/Portfolio-React%20/static/css/main.62006406.css.map",
+    "main.de121ad9.js.map": "/Portfolio-React%20/static/js/main.de121ad9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62006406.css",
+    "static/js/main.de121ad9.js"
+  ]
+}
