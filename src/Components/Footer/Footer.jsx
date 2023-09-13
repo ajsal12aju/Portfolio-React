@@ -14,7 +14,7 @@ function Footer() {
             <span>ajsal12aju@gmail.com</span>
             <div className='f-icons'>
                <a href="https://www.linkedin.com/feed/"><Insta color='white' size='3rem' /></a> 
-               <a href="https://github.com/ajsal12aju"></a> <Github color='white' size='3rem'/>
+               <a href="https://github.com/ajsal12aju"> <Github color='white' size='3rem'/></a>
                <a href=""> <Facebook color='white' size='3rem'/> </a>
                 
             </div>
